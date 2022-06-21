@@ -1,6 +1,6 @@
 {
   "name": "serverless-export-env",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "description": "Serverless plugin to export environment variables into a .env file",
   "main": "src/index.js",
   "author": "Andre Rabold",
@@ -22,12 +22,12 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "eslint": "^7.10.0",
-    "eslint-plugin-prettier": "^3.1.4",
+    "eslint": "^8.17.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.1.2"
   },
   "peerDependencies": {
-    "serverless": "1.x || 2.x"
+    "serverless": ">=2"
   },
   "prettier": {
     "printWidth": 120,
